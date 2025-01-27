@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.navbar {
+    background-color: #333;
+    padding: 1rem 0;
+}
+
+.navbar .logo {
+    color: #fff;
+    font-size: 1.8rem;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s;
+}
+
+.nav-links li a:hover {
+    color: #43cea2;
+}
+
+.hero {
+    text-align: center;
+    padding: 4rem 0;
+    background: linear-gradient(135deg, #43cea2, #185a9d);
+    color: #fff;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+.featured-post {
+    padding: 2rem 0;
+    background: #fff;
+}
+
+.featured-post .post {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.featured-post img {
+    width: 50%;
+    border-radius: 10px;
+}
+
+.featured-post .post-content h3 {
+    font-size: 1.8rem;
+}
+
+.featured-post .btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #43cea2;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.blog-grid {
+    padding: 2rem 0;
+}
+
+.blog-grid .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.blog-card {
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.blog-card img {
+    width: 100%;
+    height: auto;
+}
+
+.blog-card h3 {
+    padding: 15px 0;
+    font-size: 1.5rem;
+}
+
+.blog-card p {
+    padding: 0 20px 20px;
+    font-size: 1rem;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background: #333;
+    color: #fff;
+    margin-top: 2rem;
+}
